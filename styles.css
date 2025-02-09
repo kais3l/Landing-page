@@ -206,7 +206,18 @@ body {
 /*container-4 end*/
 
 /*footer-start*/
+.footer{
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
 
+}
 /*footer-end*/
 button{
     width:6em;
