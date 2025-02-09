@@ -94,6 +94,46 @@ button{
     height: 225px;
 }
 /*container-1 end*/
+
+
+/*container-2 start*/
+.container-2{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 52px;
+}
+
+.info-header{
+    font-size:36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 52px;
+}
+
+.group {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:48px;
+}
+.cards{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    max-width: 150px;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border:3px solid #3883f6;
+    border-radius: 16px;
+}
+/*container-2 end*/
+
+
 ul{
     list-style: none;
     margin: 0px;
