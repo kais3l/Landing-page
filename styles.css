@@ -56,6 +56,10 @@ body {
     /* gap: 200px; */
 }
 
+.content-button{
+    border: 2px solid #1f2937;
+}
+
 .main-content{
     display: flex;
     flex-direction: column;
@@ -84,16 +88,6 @@ body {
     color: #e5e7eb;
 }
 
-button{
-    width:6em;
-    background-color:#3883f6;
-    color: #f9faf8;
-    padding: 8px;
-    border-radius: 6px;
-    border: 0px;
-    font-weight: bold;
-    font-size: 18px;
-}
 .container-1 img{
     width: 400px;
     height: 225px;
@@ -103,7 +97,7 @@ button{
 
 /*container-2 start*/
 .container-2{
-    height: 300px;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -145,7 +139,7 @@ button{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
     width: 100%;
     padding: 52px;
     background-color: #e5e7eb;
@@ -171,8 +165,58 @@ button{
 
 
 /*container-4 start*/
+.container-4{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+}
 
+.call-to-action{
+    width: 1000px;
+    height: 150px;
+    padding: 52px;
+    background-color: #3883f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-txt h3{
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    color: #f9faf8;   
+}
+
+.cta-txt p{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cta-button{
+    border: 2px solid #f9faf8;
+    
+}
 /*container-4 end*/
+
+/*footer-start*/
+
+/*footer-end*/
+button{
+    width:6em;
+    background-color:#3883f6;
+    color: #f9faf8;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 ul{
     list-style: none;
