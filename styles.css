@@ -2,6 +2,9 @@
 
 *{
     font-family: "Roboto",serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,9 +12,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    width: 100vw;
+    max-width: 100%;
 }
 /*header content start*/
 .header{
@@ -19,6 +22,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    max-width: 100%;
     padding: 16px;
     background-color: #1f2937;
 }
@@ -38,7 +42,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
+    gap: 100px;
 }
 
 /*container-1 start*/
@@ -47,7 +52,7 @@ body {
     justify-content:space-evenly;
     padding:52px;
     background-color: #1f2937;
-    height: 300px;
+    height: 400px;
     /* gap: 200px; */
 }
 
@@ -99,6 +104,7 @@ button{
 /*container-2 start*/
 .container-2{
     height: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,6 +139,40 @@ button{
 }
 /*container-2 end*/
 
+/*container-3 start*/
+.container-3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    padding: 52px;
+    background-color: #e5e7eb;
+    gap: 16px;
+}
+
+.quote{
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 150;
+}
+
+.author{
+    width: 800px;
+    max-width: 800px;
+    align-self:flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+/*container-3 end*/
+
+
+/*container-4 start*/
+
+/*container-4 end*/
 
 ul{
     list-style: none;
