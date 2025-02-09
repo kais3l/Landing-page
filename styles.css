@@ -154,9 +154,7 @@ body {
 }
 
 .author{
-    width: 800px;
-    max-width: 800px;
-    align-self:flex-end;
+    padding-left: 550px ;
     font-size: 24px;
     font-weight: bold;
     color: #1f2937;
